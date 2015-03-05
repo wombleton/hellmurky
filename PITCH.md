@@ -26,5 +26,6 @@ Resource Gap
 
 * Hosting & storage costs.
 * Koha for subject matter experts (both for computer vision & varroa)
+* Development costs
 * Publicity costs
 * Project management costs
