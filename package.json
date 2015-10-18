@@ -6,7 +6,10 @@
   "dependencies": {
     "tilenol": "^0.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "async": "^1.4.2",
+    "tilenol": "0.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
