@@ -4,13 +4,20 @@
   "description": "Find varroa mites in images.",
   "main": "index.js",
   "dependencies": {
-    "tilenol": "^0.0.1"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
     "async": "^1.4.2",
     "tilenol": "0.0.1"
   },
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
