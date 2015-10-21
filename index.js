@@ -1,4 +1,13 @@
+// Set default node environment to development
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+
 var express = require('express');
+var mongoose = require('mongoose');
+var config = require('./config');
+
+// Connect to database
+mongoose.connect(config.mongo.uri, config.mongo.options);
+
 var path = require('path');
 require('serve-favicon');
 var logger = require('morgan');
