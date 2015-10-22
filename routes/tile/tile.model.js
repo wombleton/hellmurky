@@ -17,7 +17,8 @@ var TileSchema = new Schema({
       bee: Boolean,
       parasite: Boolean,
       bad: Boolean,
-      referer: String,
+      ip_address: String,
+      ponder_time: Number,
       timestamp: {
         default: Date.now,
         type: Date
